@@ -1,0 +1,32 @@
+        .dishes-image {
+            width: calc((100% - 2 * 48px) / 2);
+            max-width: 360px;
+            height: 230px;
+            &:not(:last-of-type) {
+                margin-right: 48px;
+            }
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .dishes-image {
+                width: calc((100% - 2 * 60px) / 2);
+                max-width: 252px;
+                height: 156px;
+                &:not(:last-of-type) {
+                    margin-right: 60px;
+                }
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .dishes-image {
+                max-width: 320px;
+                height: 204px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                &:not(:last-of-type) {
+                    margin-bottom: 60px;
+                }
+            }
+        }

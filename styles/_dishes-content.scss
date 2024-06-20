@@ -1,0 +1,29 @@
+.dishes-content {
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: left;
+    &__name {
+        color: $primary-color;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        width: 223px;
+        padding: 35px 0 15px;
+    }
+    &__description {
+        color: #474747;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding-bottom: 15px;
+    }
+    &__price {
+        color: $primary-color;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+    }
+}

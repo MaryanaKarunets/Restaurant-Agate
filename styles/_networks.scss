@@ -1,0 +1,13 @@
+.networks {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 60px;
+    & a {
+        color: $secondary-color;
+    }
+    &__contacts:not(:last-of-type) {
+        margin-right: 40px;
+    }
+}

@@ -1,0 +1,11 @@
+.restaurant {
+    text-align: center;
+    color: $secondary-color;
+    padding: 218px 185px;
+    &__description {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        margin: 35px auto 60px;
+    }
+}

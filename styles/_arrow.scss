@@ -1,0 +1,10 @@
+.arrow::after {
+    content: "";
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/Up.png);
+    margin: 0 auto;
+    position: fixed;
+    right: 20px;
+    bottom: 19px;
+}

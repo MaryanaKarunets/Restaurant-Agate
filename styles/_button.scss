@@ -1,0 +1,29 @@
+.button {
+    width: 312px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block;
+    &--white {
+        border: 2px solid $secondary-color;
+        color: $secondary-color;
+        padding: 17px 0 18px;
+    }
+    &--black {
+        border: 2px solid $primary-color;
+        color: $primary-color;
+        padding: 17px 0 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        font-size: 17px;
+        padding: 14px 57px 13px 50px;
+        margin-top: 183px;
+    }
+}
