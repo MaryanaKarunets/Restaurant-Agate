@@ -1,2 +1,2 @@
 # Restaurant_Agate
-training website
+ website making with SCSS
